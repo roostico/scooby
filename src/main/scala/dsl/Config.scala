@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 package dsl
 
 import dsl.DSL.ConfigurationWrapper
@@ -228,7 +228,7 @@ object Config:
     case class ConfigOptions(maxDepth: Int = 3, maxLinks: Int = 200)
 
     /**
-     * Utility trait for contexts accessible via [[org.unibo.scooby.dsl.Config.ConfigOps.PropertyBuilder]]
+     * Utility trait for contexts accessible via [[io.github.scooby.dsl.Config.ConfigOps.PropertyBuilder]]
      * @tparam T type of the configuration used by this context
      */
     trait ConfigurationContext[T]:

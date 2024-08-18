@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 package core.scooby
 
 import core.crawler.ExplorationPolicy

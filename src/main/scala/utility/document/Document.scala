@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 package utility.document
 import  utility.http.URL
 

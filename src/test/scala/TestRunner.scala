@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 
 import io.cucumber.junit.{Cucumber, CucumberOptions}
 import org.junit.runner.RunWith

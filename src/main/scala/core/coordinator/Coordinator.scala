@@ -1,12 +1,12 @@
-package org.unibo.scooby
+package io.github.scooby
 package core.coordinator
 
 import akka.actor.typed.scaladsl.{ActorContext, Behaviors}
 import akka.actor.typed.{ActorRef, Behavior}
 import core.crawler.CrawlerCommand
 import core.crawler.CrawlerCommand.CrawlerCoordinatorResponse
-import org.unibo.scooby.core.scooby.ScoobyCommand
-import org.unibo.scooby.core.scooby.ScoobyCommand.RobotsChecked
+import io.github.scooby.core.scooby.ScoobyCommand
+import io.github.scooby.core.scooby.ScoobyCommand.RobotsChecked
 import utility.http.URL
 import utility.http.URL.*
 

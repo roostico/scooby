@@ -1,14 +1,14 @@
-package org.unibo.scooby
+package io.github.scooby
 package dsl
 
 import monocle.syntax.all.*
-import org.unibo.scooby.core.exporter.Exporter.{AggregationBehaviors, ExportingBehaviors, Formats}
-import org.unibo.scooby.core.exporter.FormattingBehavior
-import org.unibo.scooby.core.scooby.SingleExporting
-import org.unibo.scooby.core.scooby.SingleExporting.{BatchExporting, StreamExporting}
-import org.unibo.scooby.utility.result.Result
-import org.unibo.scooby.dsl.DSL.ConfigurationWrapper
-import org.unibo.scooby.dsl.syntax.catchRecursiveCtx
+import io.github.scooby.core.exporter.Exporter.{AggregationBehaviors, ExportingBehaviors, Formats}
+import io.github.scooby.core.exporter.FormattingBehavior
+import io.github.scooby.core.scooby.SingleExporting
+import io.github.scooby.core.scooby.SingleExporting.{BatchExporting, StreamExporting}
+import io.github.scooby.utility.result.Result
+import io.github.scooby.dsl.DSL.ConfigurationWrapper
+import io.github.scooby.dsl.syntax.catchRecursiveCtx
 import play.api.libs.json.Writes
 
 import java.nio.file.Path
@@ -200,7 +200,7 @@ object Export:
       extension [T](x: Iterable[T])
 
         /**
-         * Unsafe version of the one inside [[org.unibo.scooby.dsl.Export.ExportOps.SafeOps]]
+         * Unsafe version of the one inside [[io.github.scooby.dsl.Export.ExportOps.SafeOps]]
          * @param f the consume function to apply.
          */
         def outputOp(f: OutputDefinitionScope[T]): Unit  =

@@ -1,18 +1,18 @@
-package org.unibo.scooby
+package io.github.scooby
 package dsl
 
 import org.scalatest.BeforeAndAfterEach
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.matchers.should.Matchers.{be, should}
-import org.unibo.scooby.core.crawler.ExplorationPolicies
-import org.unibo.scooby.core.scooby.Configuration.{CoordinatorConfiguration, CrawlerConfiguration, ExporterConfiguration, ScraperConfiguration}
-import org.unibo.scooby.core.scooby.SingleExporting.BatchExporting
-import org.unibo.scooby.core.scooby.Configuration
-import org.unibo.scooby.utility.result.Result
-import org.unibo.scooby.utility.document.html.HTMLElement
-import org.unibo.scooby.utility.document.{CommonHTMLExplorer, CrawlDocument, Document, ScrapeDocument}
-import org.unibo.scooby.utility.http.{ClientConfiguration, URL}
+import io.github.scooby.core.crawler.ExplorationPolicies
+import io.github.scooby.core.scooby.Configuration.{CoordinatorConfiguration, CrawlerConfiguration, ExporterConfiguration, ScraperConfiguration}
+import io.github.scooby.core.scooby.SingleExporting.BatchExporting
+import io.github.scooby.core.scooby.Configuration
+import io.github.scooby.utility.result.Result
+import io.github.scooby.utility.document.html.HTMLElement
+import io.github.scooby.utility.document.{CommonHTMLExplorer, CrawlDocument, Document, ScrapeDocument}
+import io.github.scooby.utility.http.{ClientConfiguration, URL}
 
 import java.nio.file.{Files, Path}
 import scala.compiletime.uninitialized

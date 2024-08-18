@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 package core.scraper
 
 import utility.document.ScrapeDocument
@@ -7,7 +7,7 @@ import akka.actor.typed.scaladsl.Behaviors
 import core.exporter.ExporterCommands
 import ScraperPolicies.ScraperPolicy
 import utility.http.URL
-import org.unibo.scooby.utility.result.Result
+import io.github.scooby.utility.result.Result
 
 import scala.util.Try
 

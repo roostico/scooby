@@ -1,9 +1,9 @@
-package org.unibo.scooby
+package io.github.scooby
 package dsl.util
 
 import core.scooby
 import core.scooby.{Configuration, SingleExporting}
-import org.unibo.scooby.utility.result.Result
+import io.github.scooby.utility.result.Result
 import dsl.DSL.ConfigurationWrapper
 import dsl.ScoobyEmbeddable
 import utility.document.{CrawlDocument, ScrapeDocument}

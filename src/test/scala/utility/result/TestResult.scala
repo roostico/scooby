@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 package utility.result
 
 import org.scalatest.matchers.should.Matchers

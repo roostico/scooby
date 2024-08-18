@@ -1,12 +1,12 @@
-package org.unibo.scooby
+package io.github.scooby
 package core.exporter
 
 import akka.actor.typed.{ActorRef, Behavior}
 import akka.actor.typed.scaladsl.Behaviors
-import org.unibo.scooby.core.scooby.ScoobyCommand
-import org.unibo.scooby.core.scooby.ScoobyCommand.ExportFinished
+import io.github.scooby.core.scooby.ScoobyCommand
+import io.github.scooby.core.scooby.ScoobyCommand.ExportFinished
 import play.api.libs.json.Writes
-import org.unibo.scooby.utility.result.Result
+import io.github.scooby.utility.result.Result
 
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, StandardOpenOption}

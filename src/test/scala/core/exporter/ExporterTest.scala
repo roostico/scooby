@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 package core.exporter
 
 import akka.actor.testkit.typed.scaladsl.BehaviorTestKit
@@ -13,7 +13,7 @@ import utility.document.html.HTMLElement
 import utility.http.URL
 
 import akka.actor.typed.ActorRef
-import org.unibo.scooby.core.scooby.{Configuration, ScoobyActor, ScoobyCommand}
+import io.github.scooby.core.scooby.{Configuration, ScoobyActor, ScoobyCommand}
 
 import java.nio.file.{Files, Path}
 import scala.compiletime.uninitialized

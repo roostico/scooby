@@ -1,7 +1,7 @@
-package org.unibo.scooby
+package io.github.scooby
 
-import org.unibo.scooby.Application.scooby
-import org.unibo.scooby.dsl.ScoobyApplication
+import io.github.scooby.Application.scooby
+import io.github.scooby.dsl.ScoobyApplication
 
 import scala.concurrent.duration.DurationInt
 

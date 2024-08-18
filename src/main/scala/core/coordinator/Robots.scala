@@ -1,9 +1,9 @@
-package org.unibo.scooby
+package io.github.scooby
 package core.coordinator
 
-import org.unibo.scooby.utility.http.Clients.SimpleHttpClient
-import org.unibo.scooby.utility.http.api.Calls.GET
-import org.unibo.scooby.utility.http.{HttpError, URL}
+import io.github.scooby.utility.http.Clients.SimpleHttpClient
+import io.github.scooby.utility.http.api.Calls.GET
+import io.github.scooby.utility.http.{HttpError, URL}
 
 /**
  * The `Robots` object provides functionalities to fetch and parse the robots.txt file from a given website. It also

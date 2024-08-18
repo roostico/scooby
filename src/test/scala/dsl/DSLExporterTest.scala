@@ -1,15 +1,15 @@
-package org.unibo.scooby
+package io.github.scooby
 package dsl
 
-import org.unibo.scooby.core.exporter.Exporter.Formats
-import org.unibo.scooby.core.scraper.ScraperPolicies.ScraperPolicy
-import org.unibo.scooby.utility.result.Result
-import org.unibo.scooby.core.scraper.ScraperPolicies
-import org.unibo.scooby.dsl.util.ScoobyTest
-import org.unibo.scooby.utility.document.ScrapeDocument
-import org.unibo.scooby.utility.document.html.HTMLElement
-import org.unibo.scooby.utility.http.HttpError
-import org.unibo.scooby.utility.http.api.Calls.GET
+import io.github.scooby.core.exporter.Exporter.Formats
+import io.github.scooby.core.scraper.ScraperPolicies.ScraperPolicy
+import io.github.scooby.utility.result.Result
+import io.github.scooby.core.scraper.ScraperPolicies
+import io.github.scooby.dsl.util.ScoobyTest
+import io.github.scooby.utility.document.ScrapeDocument
+import io.github.scooby.utility.document.html.HTMLElement
+import io.github.scooby.utility.http.HttpError
+import io.github.scooby.utility.http.api.Calls.GET
 
 import scala.compiletime.uninitialized
 

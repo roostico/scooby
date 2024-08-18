@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 package utility.document.html
 
 import utility.document.Parser

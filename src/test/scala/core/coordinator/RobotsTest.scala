@@ -1,13 +1,13 @@
-package org.unibo.scooby
+package io.github.scooby
 package core.coordinator
 
 import org.scalatest.flatspec.AnyFlatSpec
-import org.unibo.scooby.core.coordinator.CoordinatorCommand.{CheckPages, SetupRobots}
-import org.unibo.scooby.core.crawler.CrawlerCommand
-import org.unibo.scooby.core.scooby.ScoobyCommand
-import org.unibo.scooby.core.scooby.ScoobyCommand.RobotsChecked
-import utility.ScalaTestWithMockServer
-import org.unibo.scooby.utility.http.URL.toUrl
+import io.github.scooby.core.coordinator.CoordinatorCommand.{CheckPages, SetupRobots}
+import io.github.scooby.core.crawler.CrawlerCommand
+import io.github.scooby.core.scooby.ScoobyCommand
+import io.github.scooby.core.scooby.ScoobyCommand.RobotsChecked
+import io.github.scooby.utility.http.URL.toUrl
+import io.github.scooby.utility.ScalaTestWithMockServer
 
 import scala.language.{implicitConversions, postfixOps}
 

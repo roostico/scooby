@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 package core.scraper
 
 import akka.actor.DeadLetter
@@ -11,7 +11,7 @@ import utility.http.URL
 import core.scraper.ScraperPolicies.{*, given}
 import org.scalatest.flatspec.AnyFlatSpec
 import core.exporter.ExporterCommands
-import org.unibo.scooby.utility.result.Result
+import io.github.scooby.utility.result.Result
 
 import scala.compiletime.uninitialized
 

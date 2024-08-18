@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 package core.scraper
 
 import io.cucumber.scala.{EN, ScalaDsl}
@@ -11,7 +11,7 @@ import org.scalatest.BeforeAndAfterAll
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 import core.exporter.ExporterCommands
-import org.unibo.scooby.utility.result.Result
+import io.github.scooby.utility.result.Result
 
 import scala.compiletime.uninitialized
 

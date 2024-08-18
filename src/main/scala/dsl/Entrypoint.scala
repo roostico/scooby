@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 package dsl
 import core.exporter.Exporter.{AggregationBehaviors, ExportingBehaviors, Formats}
 import core.scooby.Configuration.ExporterConfiguration
@@ -10,7 +10,7 @@ import monocle.syntax.all.*
 import scala.concurrent.{Future, Promise}
 import scala.util.Success
 import core.scooby.SingleExporting
-import org.unibo.scooby.dsl.DSL.ConfigurationWrapper
+import io.github.scooby.dsl.DSL.ConfigurationWrapper
 
 /**
  * Generated an empty [[ConfigurationWrapper]]
@@ -45,7 +45,7 @@ private type ScoobyScope[T] = ConfigurationWrapper[T] ?=> Unit
  * and can therefore be used directly as executable object.
  * == Example usage ==
  * {{{
- *   import org.unibo.scooby.dsl.ScoobyApplication
+ *   import io.github.scooby.dsl.ScoobyApplication
  *
  *   object Example extends ScoobyApplication:
  *
@@ -79,8 +79,8 @@ trait ScoobyApplication extends App:
  *
  * == Example usage ==
  * {{{
- *   import org.unibo.scooby.dsl.ScoobyEmbeddable
- *   import org.unibo.scooby.core.scraper.Result
+ *   import io.github.scooby.dsl.ScoobyEmbeddable
+ *   import io.github.scooby.core.scraper.Result
  *   import scala.concurrent.Await
  *   import scala.concurrent.duration.Duration
  *

@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 package core.exporter
 
 import org.scalatest.BeforeAndAfterAll
@@ -8,7 +8,7 @@ import akka.actor.testkit.typed.scaladsl.{ActorTestKit, BehaviorTestKit}
 import utility.result.Result
 
 import akka.actor.typed.ActorRef
-import org.unibo.scooby.core.scooby.{Configuration, ScoobyActor, ScoobyCommand}
+import io.github.scooby.core.scooby.{Configuration, ScoobyActor, ScoobyCommand}
 
 import scala.language.postfixOps
 

@@ -1,8 +1,8 @@
-package org.unibo.scooby
+package io.github.scooby
 package utility.http.backends
 
-import org.unibo.scooby.utility.http.*
-import org.unibo.scooby.utility.http.HttpStatus.INVALID
+import io.github.scooby.utility.http.*
+import io.github.scooby.utility.http.HttpStatus.INVALID
 import sttp.model.RequestMetadata
 
 /**

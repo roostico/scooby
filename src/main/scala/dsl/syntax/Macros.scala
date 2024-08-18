@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 package dsl.syntax
 
 import scala.compiletime.{summonFrom, error}

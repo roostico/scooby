@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 package core.crawler
 
 import core.coordinator.CoordinatorCommand

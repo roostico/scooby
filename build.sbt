@@ -15,8 +15,8 @@ assemblyMergeStrategy in assembly := {
 lazy val idePackagePrefix = settingKey[String]("Package prefix for IDE").withRank(KeyRanks.Invisible)
 lazy val root = (project in file("."))
   .settings(
-    name := "PPS-22-Scooby",
-    idePackagePrefix := "org.unibo.scooby"
+    name := "scooby",
+    idePackagePrefix := "io.github.scooby"
   )
 
 val AkkaVersion = "2.9.3"

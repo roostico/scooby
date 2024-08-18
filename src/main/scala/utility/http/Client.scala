@@ -1,4 +1,4 @@
-package org.unibo.scooby
+package io.github.scooby
 package utility.http
 
 import java.util.concurrent.atomic.AtomicInteger

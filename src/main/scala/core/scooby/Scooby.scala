@@ -1,17 +1,17 @@
-package org.unibo.scooby
+package io.github.scooby
 package core.scooby
 
 import akka.actor.typed.*
 import akka.actor.typed.scaladsl.AskPattern.*
 import akka.actor.typed.scaladsl.Behaviors
 import akka.util.Timeout
-import org.unibo.scooby.core.coordinator.{Coordinator, CoordinatorCommand}
-import org.unibo.scooby.core.coordinator.CoordinatorCommand.SetupRobots
-import org.unibo.scooby.core.crawler.{Crawler, CrawlerCommand}
-import org.unibo.scooby.core.exporter.Exporter.*
-import org.unibo.scooby.core.exporter.ExporterCommands.SignalEnd
-import org.unibo.scooby.core.exporter.{Exporter, ExporterCommands, ExporterRouter}
-import org.unibo.scooby.core.scooby.SingleExporting.{BatchExporting, StreamExporting}
+import io.github.scooby.core.coordinator.{Coordinator, CoordinatorCommand}
+import io.github.scooby.core.coordinator.CoordinatorCommand.SetupRobots
+import io.github.scooby.core.crawler.{Crawler, CrawlerCommand}
+import io.github.scooby.core.exporter.Exporter.*
+import io.github.scooby.core.exporter.ExporterCommands.SignalEnd
+import io.github.scooby.core.exporter.{Exporter, ExporterCommands, ExporterRouter}
+import io.github.scooby.core.scooby.SingleExporting.{BatchExporting, StreamExporting}
 
 import scala.concurrent.duration.{Duration, DurationInt}
 import scala.concurrent.{Await, Future}

@@ -1,8 +1,8 @@
 package utility.http
 
-import org.unibo.scooby.utility.ScalaTestWithMockServer
-import org.unibo.scooby.utility.http.{ClientConfiguration, Request, URL}
-import org.unibo.scooby.utility.http.Clients.SimpleHttpClient
+import io.github.scooby.utility.ScalaTestWithMockServer
+import io.github.scooby.utility.http.{ClientConfiguration, Request, URL}
+import io.github.scooby.utility.http.Clients.SimpleHttpClient
 
 class ClientTest extends ScalaTestWithMockServer:
 
